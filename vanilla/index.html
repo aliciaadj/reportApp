@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar"><h1>Report</h1></nav>
+    <div class="card">
+      <h2>August</h2>
+      <div class="content">
+        <div class="desc">
+          <h4>Stunden</h4>
+          <h4>Abgaben</h4>
+          <h4>Rückbesuche</h4>
+          <h4>Bibelstudien</h4>
+        </div>
+        <div class="item">
+          <div class="buttonGroup">
+            <button class="min" type="button">-</button>
+            <div class="amount hours">0</div>
+            <button class="plus" type="button">+</button>
+          </div>
+          <div class="buttonGroup">
+            <button class="min" type="button">-</button>
+            <div class="amount dist">0</div>
+            <button class="plus" type="button">+</button>
+          </div>
+          <div class="buttonGroup">
+            <button class="min" type="button">-</button>
+            <div class="amount return">0</div>
+            <button class="plus" type="button">+</button>
+          </div>
+          <div class="buttonGroup">
+            <button class="min" type="button">-</button>
+            <div class="amount studies">0</div>
+            <button class="plus" type="button">+</button>
+          </div>
+        </div>
+      </div>
+      <button class="reset" type="button">Reset</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
